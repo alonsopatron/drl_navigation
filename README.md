@@ -3,6 +3,11 @@
 This repository contains a solution to the Navigation project
 from the Deep Reinforcement Learning Udacity course.
 
+## Disclaimer
+
+The code for the agent and memory buffers included in this repo are based on the code
+used for the Lunar Landing practice exercise from the Udacity course. Only minor modifications and refactorings were needed to adapt from the OpenAI's Gym to the Unity test environment.
+
 ## Project description
 
 The project involves the implementation and training of an agent to "solve" a Unity ML environment.
