@@ -1,4 +1,4 @@
-# Navigation example using a Deep Q-Network
+# Navigation example using a Deep Q-Network (Version 1.0)
 
 This repository contains a solution to the Navigation project
 from the Deep Reinforcement Learning Udacity course.
