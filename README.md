@@ -11,7 +11,7 @@ The agent gets a reward of +1 for each yellow banana collected and -1 for a blue
 
 The environment is considered solved if the agent gets an average score of +13 or more over 100 consecutive episodes.
 
-![Unity Environment](https://github.com/alonsopatron/drl_navigation/blob/develop/images/environment.png "Banana Unity Environment")
+![Unity Environment](/images/environment.png "Banana Unity Environment")
 
 ## Running the code
 
@@ -51,7 +51,7 @@ The first thing to set up is a working Python environment. Here we assumed Anaco
 
 You are all setup for running the code! Just remember to select the **dqnav** kernel when running the Jupyter notebooks as shown below.
 
-![Jupyter Kernel](https://github.com/alonsopatron/drl_navigation/blob/develop/images/jupyter.png "Jupyter Kernel")
+![Jupyter Kernel](/images/jupyter.png "Jupyter Kernel")
 
 ### Training the agent
 
