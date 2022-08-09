@@ -9,7 +9,6 @@ import torch
 import torch.nn.functional as F
 import torch.optim as optim
 
-# TODO: Refactor this to a nicer way to expose parameters at higher levels
 BUFFER_SIZE = int(1e5)  # memory buffer size
 BATCH_SIZE = 64         # minibatch size
 GAMMA = 0.99            # discount factor
