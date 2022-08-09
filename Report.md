@@ -47,7 +47,7 @@ The following table summarizes the values used for all the hyperparameters durin
 
 After training for 1000 episodes the agent was able to consistently surpass the goal of a +13 score. The agent achieved a score above +13 after **583** episodes. The training progress is illustrated in the figure below.
 
-![Results](https://github.com/alonsopatron/drl_navigation/blob/develop/images/training_results.png "Banana Unity Environment")
+![Results](/images/training_results.png "Banana Unity Environment")
 
 ## Future improvements
 
