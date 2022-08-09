@@ -15,7 +15,43 @@ The environment is considered solved if the agent gets an average score of +13 o
 
 ## Running the code
 
+In this section we describe how to run the code to train and test an agent. Before attempting to run any script/notebook please make sure all dependencies are installed.
+
+Before installing dependencies first download the repo:
+
+```
+git clone https://github.com/alonsopatron/drl_navigation.git
+```
+
 ### Installing dependencies
+
+The first thing to set up is a working Python environment. Here we assumed Anaconda3 is already installed in your system. If not this can be installed with *apt* in linux or with *brew* in Mac.
+
+1. Set up your Python Environment
+
+```
+conda create --name dqnav python=3.7
+conda activate dqnav    # use [conda deactivate] to get out of the environment
+```
+
+2. Unzip the Unity environment included in the environment/ folder
+
+3. With the conda environment active, install the Python dependencies. The python folder in this repo was taken from the original course example repository and a few modifications were made to update/remove some dependencies.
+
+```
+cd drl_navigation/python/
+pip install .
+```
+
+4. Add the conda environment to the Jupyter kernel list so that we can use it when opening a notebook.
+
+```
+python -m ipykernel install --user --name dqnav --display-name "dqnav"
+```
+
+You are all setup for running the code. Just remember to select the **dqnav** kernel when running the Jupyter notebook as shown below.
+
+# TODO: Add image here
 
 ### Training the agent
 
